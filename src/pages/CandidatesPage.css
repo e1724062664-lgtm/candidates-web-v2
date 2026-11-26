@@ -1,0 +1,34 @@
+.candidates-page {
+  padding-bottom: 3rem;
+}
+
+/* "flex-wrap" deja que el contador baje de línea en pantallas angostas, en vez de partirse en dos. */
+.candidates-page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  margin: 2rem 0 1rem;
+}
+
+.candidates-page-title {
+  font-size: 1.75rem;
+}
+
+.candidates-page-count {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+
+/* Espacio entre el buscador y la lista (se pone aquí, en un contenedor de la página,
+   y no sobre la clase del buscador, para que los estilos de un componente no afecten a otro). */
+.candidates-page-search {
+  margin-bottom: 1.25rem;
+}
+
+.candidates-page-empty {
+  margin-top: 2rem;
+  color: var(--color-muted);
+}

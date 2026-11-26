@@ -1,0 +1,7 @@
+/* Una cuadrícula que se adapta sola: tantas columnas de al menos 280px como quepan.
+   El min(100%, 280px) hace que en pantallas muy angostas pase a UNA columna sin desbordarse. */
+.candidate-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: 1rem;
+}
