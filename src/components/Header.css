@@ -14,9 +14,24 @@
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--color-primary);
+  text-decoration: none;
 }
 
-.header-subtitle {
+.header-link {
+  padding: 0.375rem 0.75rem;
   font-size: 0.875rem;
   color: var(--color-muted);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.header-link:hover {
+  color: var(--color-primary);
+}
+
+/* NavLink agrega esta clase solo al enlace de la página actual. */
+.header-link-active {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  background: var(--color-primary-soft);
 }
