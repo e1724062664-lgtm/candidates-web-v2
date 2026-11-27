@@ -1,6 +1,7 @@
 .search-bar {
   width: 100%;
   padding: 0.625rem 0.875rem;
+  margin-bottom: 1.25rem;
   font: inherit;
   color: var(--color-text);
   background: var(--color-surface);

@@ -1,0 +1,12 @@
+.not-found-page {
+  margin-top: 2rem;
+}
+
+.not-found-page-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+}
+
+.not-found-page-link {
+  color: var(--color-primary);
+}

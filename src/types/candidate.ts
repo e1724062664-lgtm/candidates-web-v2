@@ -1,4 +1,4 @@
-// Describe cómo es un candidato. Es el mismo modelo que usa la API.
+// Forma de un candidato (igual a lo que devuelve la API).
 export interface Candidate {
   id: number;
   name: string;
