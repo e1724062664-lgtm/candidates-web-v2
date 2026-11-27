@@ -1,4 +1,4 @@
-/* Los colores del sitio, definidos UNA sola vez. Se usan con var(--nombre) en los demás archivos. */
+/* Los colores del sitio, definidos una sola vez. Se usan con var(--nombre). */
 :root {
   --color-bg: #f5f6f8;
   --color-surface: #ffffff;
@@ -6,10 +6,11 @@
   --color-text: #17202b;
   --color-muted: #5a6573;
   --color-primary: #0f5c6e;
-  --color-primary-dark: #0b4a59;
-  --color-primary-soft: #e4f1f4;
+  --color-primary-dark: #0b4553;
+  --color-primary-soft: #e3f1f4;
   --color-on-primary: #ffffff;
   --color-focus-ring: rgba(15, 92, 110, 0.15);
+  --color-danger: #b42318;
 }
 
 /* El borde y el relleno cuentan dentro del ancho de cada elemento. */

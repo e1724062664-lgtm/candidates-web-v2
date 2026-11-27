@@ -1,12 +1,19 @@
+import { Link, NavLink } from "react-router";
 import './Header.css';
 
-// No recibe props: siempre muestra lo mismo.
 export const Header = () => {
   return (
     <header className="header">
       <div className="container header-content">
-        <h1 className="header-brand">TalentHub</h1>
-        <span className="header-subtitle">Candidatos</span>
+        <Link to="/candidates" className="header-brand">TalentHub</Link>
+        <nav>
+          <NavLink
+            to="/candidates"
+            className={({ isActive }) => (isActive ? "header-link header-link-active" : "header-link")}
+          >
+            Candidatos
+          </NavLink>
+        </nav>
       </div>
     </header>
   );

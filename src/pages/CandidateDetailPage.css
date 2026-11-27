@@ -1,0 +1,52 @@
+.candidate-detail {
+  margin-top: 2rem;
+}
+
+.candidate-detail-back {
+  color: var(--color-primary);
+}
+
+.candidate-detail-status {
+  margin-top: 1.5rem;
+  color: var(--color-muted);
+}
+
+.candidate-detail-error {
+  color: var(--color-danger);
+}
+
+.candidate-detail-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.candidate-detail-name {
+  font-size: 1.75rem;
+}
+
+.candidate-detail-row {
+  color: var(--color-muted);
+}
+
+.candidate-detail-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.candidate-detail-skill {
+  padding: 0.125rem 0.625rem;
+  font-size: 0.875rem;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-soft);
+  border-radius: 999px;
+}
